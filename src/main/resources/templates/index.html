@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head"></head>
+<body>
+<div class="wrapper">
+    <!-- Navigation -->
+    <header th:replace="fragments/header"></header>
+
+    <!-- Top Container -->
+    <section class="top-container">
+        <div class="showcase">
+            <h1>Want to buy something?</h1>
+            <p>Now with free shipping</p>
+            <a href="/items" class="btn">To shop</a>
+        </div>
+        <div class="top-box top-box-a">
+            <h4>Оферта на деня:</h4>
+            <img id="box-a-img" src="/images/mac-1.jpg" height="150px" alt="">
+            <h4><span id="box-a-temp">Apple MacBook Pro 13"</span></h4>
+        </div>
+        <div class="top-box top-box-b">
+            <h4>Времето в Созопол</h4>
+            <h4><span id="box-b-temp">27</span><span>&#8451;</span></h4>
+            <img id="box-b-img" src="/images/cloudy.png" height="150px" alt="">
+        </div>
+</body>
+
+<footer th:replace="fragments/footer"></footer>
+</html>
